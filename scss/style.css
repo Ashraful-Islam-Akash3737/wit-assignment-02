@@ -44,22 +44,144 @@ header .header-navbar .navbar-container a:hover {
   padding: 5px 10px;
 }
 
-main .banner {
-  margin: 0px 30px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
 main .banner .banner-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-main .banner .banner-container .banner-left-1 {
-  margin-right: 30px;
-}
-main .banner .banner-right {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px 20px;
+}
+main .banner .banner-container .banner-left-1 {
+  background-image: url("../images/left-banner-image.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 650px;
+  margin: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .banner .banner-container .banner-left-1 .h1 {
+  font-size: 80px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main .banner .banner-container .banner-left-1 .p {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  color: white;
+  margin-bottom: 20px;
+}
+main .banner .banner-container .banner-left-1 .btn {
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: grey;
+  padding: 15px 20px;
+}
+main .banner .banner-container .banner-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin: 50px;
+}
+main .banner .banner-container .banner-right .banner-right-1 {
+  background-image: url("../images/baner-right-image-01.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .banner .banner-container .banner-right .banner-right-1 .h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main .banner .banner-container .banner-right .banner-right-1 .p {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  color: white;
+  margin-bottom: 20px;
+}
+main .banner .banner-container .banner-right .banner-right-2 {
+  background-image: url("../images/baner-right-image-02.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .banner .banner-container .banner-right .banner-right-2 .h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main .banner .banner-container .banner-right .banner-right-2 .p {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  color: white;
+  margin-bottom: 20px;
+}
+main .banner .banner-container .banner-right .banner-right-3 {
+  background-image: url("../images/baner-right-image-03.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .banner .banner-container .banner-right .banner-right-3 .h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main .banner .banner-container .banner-right .banner-right-3 .p {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  color: white;
+  margin-bottom: 20px;
+}
+main .banner .banner-container .banner-right .banner-right-4 {
+  background-image: url("../images/baner-right-image-04.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .banner .banner-container .banner-right .banner-right-4 .h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main .banner .banner-container .banner-right .banner-right-4 .p {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  color: white;
+  margin-bottom: 20px;
+}
+main .hr {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+main .hr hr {
+  border: 1px dotted black;
 }/*# sourceMappingURL=style.css.map */
