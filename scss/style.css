@@ -42,4 +42,24 @@ header .header-navbar .navbar-container a:hover {
   font-size: 30px;
   background-color: white;
   padding: 5px 10px;
+}
+
+main .banner {
+  margin: 0px 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+main .banner .banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .banner .banner-container .banner-left-1 {
+  margin-right: 30px;
+}
+main .banner .banner-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px 20px;
 }/*# sourceMappingURL=style.css.map */
