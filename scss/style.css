@@ -96,18 +96,78 @@ main .banner .banner-container .banner-right .banner-right-1 {
   align-items: center;
   flex-direction: column;
 }
-main .banner .banner-container .banner-right .banner-right-1 .h1 {
+main .banner .banner-container .banner-right .banner-right-1 .banner-right-1-content-1 {
+  display: block;
+}
+main .banner .banner-container .banner-right .banner-right-1 .banner-right-1-content-1 .h1 {
   font-size: 40px;
   color: white;
   font-weight: 900;
   margin-bottom: 30px;
 }
-main .banner .banner-container .banner-right .banner-right-1 .p {
+main .banner .banner-container .banner-right .banner-right-1 .banner-right-1-content-1 .p {
   font-size: 20px;
   font-weight: 500;
   font-style: italic;
   color: white;
   margin-bottom: 20px;
+}
+main .banner .banner-container .banner-right .banner-right-1 .banner-right-1-content-2 {
+  display: none;
+}
+main .banner .banner-container .banner-right .banner-right-1 .banner-right-1-content-2 .h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main .banner .banner-container .banner-right .banner-right-1 .banner-right-1-content-2 .btn {
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: grey;
+  padding: 15px 20px;
+}
+main .banner .banner-container .banner-right .banner-right-1:hover .banner-right-1-content-1 {
+  display: none;
+}
+main .banner .banner-container .banner-right .banner-right-1:hover .banner-right-1-content-1 .h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main .banner .banner-container .banner-right .banner-right-1:hover .banner-right-1-content-1 .p {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  color: white;
+  margin-bottom: 20px;
+}
+main .banner .banner-container .banner-right .banner-right-1:hover .banner-right-1-content-2 {
+  display: block;
+  background-color: black;
+  padding: 50px 60px;
+}
+main .banner .banner-container .banner-right .banner-right-1:hover .banner-right-1-content-2 .h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main .banner .banner-container .banner-right .banner-right-1:hover .banner-right-1-content-2 .btn {
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: grey;
+  padding: 15px 20px;
+}
+main .banner .banner-container .banner-right .banner-right-1:hover .banner-right-1-content-2 .btn:hover {
+  color: black;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px 20px;
 }
 main .banner .banner-container .banner-right .banner-right-2 {
   background-image: url("../images/baner-right-image-02.jpg");
@@ -119,18 +179,79 @@ main .banner .banner-container .banner-right .banner-right-2 {
   align-items: center;
   flex-direction: column;
 }
-main .banner .banner-container .banner-right .banner-right-2 .h1 {
+main .banner .banner-container .banner-right .banner-right-2 .banner-right-2-content-1 {
+  display: block;
+}
+main .banner .banner-container .banner-right .banner-right-2 .banner-right-2-content-1 .h1 {
   font-size: 40px;
   color: white;
   font-weight: 900;
   margin-bottom: 30px;
 }
-main .banner .banner-container .banner-right .banner-right-2 .p {
+main .banner .banner-container .banner-right .banner-right-2 .banner-right-2-content-1 .p {
   font-size: 20px;
   font-weight: 500;
   font-style: italic;
   color: white;
   margin-bottom: 20px;
+}
+main .banner .banner-container .banner-right .banner-right-2 .banner-right-2-content-2 {
+  display: none;
+}
+main .banner .banner-container .banner-right .banner-right-2 .banner-right-2-content-2 .h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main .banner .banner-container .banner-right .banner-right-2 .banner-right-2-content-2 .p {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  color: white;
+  margin-bottom: 20px;
+}
+main .banner .banner-container .banner-right .banner-right-2:hover .banner-right-2-content-1 {
+  background-color: black;
+  visibility: hidden;
+}
+main .banner .banner-container .banner-right .banner-right-2:hover .banner-right-2-content-1 .h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main .banner .banner-container .banner-right .banner-right-2:hover .banner-right-2-content-1 .p {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  color: white;
+  margin-bottom: 20px;
+}
+main .banner .banner-container .banner-right .banner-right-2:hover .banner-right-2-content-2 {
+  display: block;
+  background-color: black;
+  padding: 50px 60px;
+}
+main .banner .banner-container .banner-right .banner-right-2:hover .banner-right-2-content-2 .h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main .banner .banner-container .banner-right .banner-right-2:hover .banner-right-2-content-2 .btn {
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: grey;
+  padding: 15px 20px;
+}
+main .banner .banner-container .banner-right .banner-right-2:hover .banner-right-2-content-2 .btn:hover {
+  color: black;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px 20px;
 }
 main .banner .banner-container .banner-right .banner-right-3 {
   background-image: url("../images/baner-right-image-03.jpg");
@@ -142,18 +263,78 @@ main .banner .banner-container .banner-right .banner-right-3 {
   align-items: center;
   flex-direction: column;
 }
-main .banner .banner-container .banner-right .banner-right-3 .h1 {
+main .banner .banner-container .banner-right .banner-right-3 .banner-right-3-content-1 {
+  display: block;
+}
+main .banner .banner-container .banner-right .banner-right-3 .banner-right-3-content-1 .h1 {
   font-size: 40px;
   color: white;
   font-weight: 900;
   margin-bottom: 30px;
 }
-main .banner .banner-container .banner-right .banner-right-3 .p {
+main .banner .banner-container .banner-right .banner-right-3 .banner-right-3-content-1 .p {
   font-size: 20px;
   font-weight: 500;
   font-style: italic;
   color: white;
   margin-bottom: 20px;
+}
+main .banner .banner-container .banner-right .banner-right-3 .banner-right-3-content-2 {
+  display: none;
+}
+main .banner .banner-container .banner-right .banner-right-3 .banner-right-3-content-2 .h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main .banner .banner-container .banner-right .banner-right-3 .banner-right-3-content-2 .btn {
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: grey;
+  padding: 15px 20px;
+}
+main .banner .banner-container .banner-right .banner-right-3:hover .banner-right-3-content-1 {
+  display: none;
+}
+main .banner .banner-container .banner-right .banner-right-3:hover .banner-right-3-content-1 .h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main .banner .banner-container .banner-right .banner-right-3:hover .banner-right-3-content-1 .p {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  color: white;
+  margin-bottom: 20px;
+}
+main .banner .banner-container .banner-right .banner-right-3:hover .banner-right-3-content-2 {
+  display: block;
+  background-color: black;
+  padding: 50px 60px;
+}
+main .banner .banner-container .banner-right .banner-right-3:hover .banner-right-3-content-2 .h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main .banner .banner-container .banner-right .banner-right-3:hover .banner-right-3-content-2 .btn {
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: grey;
+  padding: 15px 20px;
+}
+main .banner .banner-container .banner-right .banner-right-3:hover .banner-right-3-content-2 .btn:hover {
+  color: black;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px 20px;
 }
 main .banner .banner-container .banner-right .banner-right-4 {
   background-image: url("../images/baner-right-image-04.jpg");
@@ -165,18 +346,78 @@ main .banner .banner-container .banner-right .banner-right-4 {
   align-items: center;
   flex-direction: column;
 }
-main .banner .banner-container .banner-right .banner-right-4 .h1 {
+main .banner .banner-container .banner-right .banner-right-4 .banner-right-4-content-1 {
+  display: block;
+}
+main .banner .banner-container .banner-right .banner-right-4 .banner-right-4-content-1 .h1 {
   font-size: 40px;
   color: white;
   font-weight: 900;
   margin-bottom: 30px;
 }
-main .banner .banner-container .banner-right .banner-right-4 .p {
+main .banner .banner-container .banner-right .banner-right-4 .banner-right-4-content-1 .p {
   font-size: 20px;
   font-weight: 500;
   font-style: italic;
   color: white;
   margin-bottom: 20px;
+}
+main .banner .banner-container .banner-right .banner-right-4 .banner-right-4-content-2 {
+  display: none;
+}
+main .banner .banner-container .banner-right .banner-right-4 .banner-right-4-content-2 .h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main .banner .banner-container .banner-right .banner-right-4 .banner-right-4-content-2 .btn {
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: grey;
+  padding: 15px 20px;
+}
+main .banner .banner-container .banner-right .banner-right-4:hover .banner-right-4-content-1 {
+  display: none;
+}
+main .banner .banner-container .banner-right .banner-right-4:hover .banner-right-4-content-1 .h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main .banner .banner-container .banner-right .banner-right-4:hover .banner-right-4-content-1 .p {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  color: white;
+  margin-bottom: 20px;
+}
+main .banner .banner-container .banner-right .banner-right-4:hover .banner-right-4-content-2 {
+  display: block;
+  background-color: black;
+  padding: 50px 50px;
+}
+main .banner .banner-container .banner-right .banner-right-4:hover .banner-right-4-content-2 .h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+main .banner .banner-container .banner-right .banner-right-4:hover .banner-right-4-content-2 .btn {
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: grey;
+  padding: 15px 20px;
+}
+main .banner .banner-container .banner-right .banner-right-4:hover .banner-right-4-content-2 .btn:hover {
+  color: black;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px 20px;
 }
 main .hr {
   margin-top: 10px;
