@@ -442,4 +442,72 @@ main .hr hr {
   font-size: 30px;
   color: black;
   width: 50%;
+}
+
+.mens-photo {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 1fr 1fr 0.2fr;
+  margin-bottom: 70px;
+  margin-left: 30px;
+}
+.mens-photo .pre {
+  width: 100px;
+  padding-top: 180px;
+  margin-right: 80px;
+  float: left;
+}
+.mens-photo .mens-photo-1 .about-mens-photo-1 {
+  display: flex;
+  align-items: center;
+}
+.mens-photo .mens-photo-1 .about-mens-photo-1 .title {
+  font-size: 30px;
+}
+.mens-photo .mens-photo-1 .about-mens-photo-1 img {
+  width: 100px;
+  margin-left: 90px;
+}
+.mens-photo .mens-photo-1 .price {
+  font-size: 20px;
+}
+.mens-photo .mens-photo-2 .about-mens-photo-1 {
+  display: flex;
+  align-items: center;
+}
+.mens-photo .mens-photo-2 .about-mens-photo-1 .title {
+  font-size: 30px;
+}
+.mens-photo .mens-photo-2 .about-mens-photo-1 img {
+  width: 100px;
+  margin-left: 90px;
+}
+.mens-photo .mens-photo-2 .price {
+  font-size: 20px;
+}
+.mens-photo .mens-photo-3 .about-mens-photo-1 {
+  display: flex;
+  align-items: center;
+}
+.mens-photo .mens-photo-3 .about-mens-photo-1 .title {
+  font-size: 30px;
+}
+.mens-photo .mens-photo-3 .about-mens-photo-1 img {
+  width: 100px;
+  margin-left: 87px;
+}
+.mens-photo .mens-photo-3 .price {
+  font-size: 20px;
+}
+.mens-photo .next {
+  width: 100px;
+  padding-top: 180px;
+  padding-left: 0px;
+}
+
+.real {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.real hr {
+  border: 5px dotted black;
 }/*# sourceMappingURL=style.css.map */
