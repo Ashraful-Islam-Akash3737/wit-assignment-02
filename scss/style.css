@@ -587,4 +587,12 @@ main .hr hr {
   width: 100px;
   padding-top: 180px;
   padding-left: 0px;
+}
+
+.hr {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.hr hr {
+  border: 7px dotted black;
 }/*# sourceMappingURL=style.css.map */
