@@ -938,7 +938,16 @@ main {
             border: 2px solid black;
             color: black;
             background-color: white;
-            border-radius: 5px;
+            border-radius: 8px;
+        }
+        .btn:hover{
+            margin-left: 175px; 
+            padding: 20px;
+            font-size: 25px;
+            border: 2px solid white;
+            color: white;
+            background-color:black;
+            border-radius: 8px;
         }
     }
 
