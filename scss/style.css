@@ -757,4 +757,20 @@ main .hr hr {
 }
 .container .image-container .box2 p {
   color: black;
+}
+.social-media {
+  margin-top: 150px;
+  margin-left: 100px;
+  margin-bottom: 80px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.social-media .title {
+  font-size: 50px;
+  font-weight: 900;
+  color: black;
+}
+.social-media .info {
+  font-size: 30px;
+  color: black;
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */
