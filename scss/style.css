@@ -80,6 +80,13 @@ main .banner .banner-container .banner-left-1 .btn {
   background-color: grey;
   padding: 15px 20px;
 }
+main .banner .banner-container .banner-left-1 .btn:hover {
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px 20px;
+}
 main .banner .banner-container .banner-right {
   display: grid;
   grid-template-columns: 1fr 1fr;
