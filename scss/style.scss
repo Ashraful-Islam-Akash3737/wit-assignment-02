@@ -102,12 +102,13 @@ main {
                     padding: 15px 20px;
 
                 }
-                .btn:hover{
+
+                .btn:hover {
                     color: black;
                     border: 1px solid black;
                     border-radius: 10px;
                     background-color: white;
-                    padding: 15px 20px; 
+                    padding: 15px 20px;
                 }
 
             }
@@ -547,8 +548,8 @@ main {
     }
 
     .hr {
-        margin-top: 10px;
-        margin-bottom: 50px;
+        margin-top: 70px;
+        margin-bottom: 100px;
 
         hr {
             border: 1px dotted black;
@@ -665,8 +666,8 @@ main {
 }
 
 .real {
-    margin-top: 10px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 100px;
 
     hr {
         border: 1px dotted black;
@@ -782,8 +783,8 @@ main {
 }
 
 .hr {
-    margin-top: 10px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 100px;
 
     hr {
         border: 7px dotted black;
@@ -898,7 +899,7 @@ main {
 
 }
 
-.container{
+.container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
@@ -907,6 +908,7 @@ main {
     margin-left: 10px;
     margin-right: 100px;
     text-align: left;
+
     .about-container {
         width: 50%;
 
@@ -932,7 +934,7 @@ main {
         }
 
         .btn {
-            margin-left: 175px; 
+            margin-left: 175px;
             padding: 20px;
             font-size: 25px;
             border: 2px solid black;
@@ -940,13 +942,14 @@ main {
             background-color: white;
             border-radius: 8px;
         }
-        .btn:hover{
-            margin-left: 175px; 
+
+        .btn:hover {
+            margin-left: 175px;
             padding: 20px;
             font-size: 25px;
             border: 2px solid white;
             color: white;
-            background-color:black;
+            background-color: black;
             border-radius: 8px;
         }
     }
@@ -958,18 +961,20 @@ main {
 
 
         .box1 {
-            background-color:rgb(232, 228, 228);
+            background-color: rgb(232, 228, 228);
             height: 350px;
             width: 300px;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            h1{
+
+            h1 {
                 color: black;
                 font-size: 40px;
             }
-            p{
+
+            p {
                 color: black;
 
             }
@@ -978,18 +983,20 @@ main {
         img {}
 
         .box2 {
-            background-color:rgb(232, 228, 228) ;
+            background-color: rgb(232, 228, 228);
             height: 350px;
             width: 300px;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            h1{
+
+            h1 {
                 color: black;
                 font-size: 40px;
             }
-            p{
+
+            p {
                 color: black;
             }
         }
@@ -997,6 +1004,7 @@ main {
         img {}
     }
 }
+
 .social-media {
     margin-top: 150px;
     margin-left: 100px;
@@ -1015,50 +1023,125 @@ main {
         width: 50%;
     }
 }
-.social-media-photo{
+
+.social-media-photo {
     text-align: center;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    .instagram{
-        
-        
-        img{
+
+    .instagram {
+
+
+        img {
             display: block;
-            
+
         }
-        h1{
+
+        h1 {
             display: none;
-            
+
             padding-top: 80px;
             height: 200px;
             width: 200px;
         }
     }
-    .instagram:hover{
-        
-        img{
+
+    .instagram:hover {
+
+        img {
             display: none;
-            
-            
-           
+
+
+
         }
-        h1{
-            
+
+        h1 {
+
             display: block;
-            background-color:black;
-            color:white;
+            background-color: black;
+            color: white;
             text-align: center;
             padding-top: 80px;
             font-size: 40px;
             height: 200px;
             width: 200px;
-            
+
         }
     }
-    
-    
-    
+
+
+
+}
+
+.office-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+
+    .office-info {
+        h1 {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .your-info {
+            label {
+                margin-right: 20px;
+                input {
+                    padding: 15px;
+                    font-size: 20px;
+                }
+            }
+
+            .btn {
+                margin-left: 20px;
+                padding: 15px;
+                font-size: 25px;
+                border: 2px solid black;
+                color: black;
+                background-color: white;
+                border-radius: 8px;
+
+            }
+
+            .btn:hover {
+                margin-left: 20px;
+                padding: 15px;
+                font-size: 25px;
+                border: 2px solid white;
+                color: white;
+                background-color: black;
+                border-radius: 8px;
+
+            }
+        }
+
+    }
+
+    .office-detail {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+
+        .store-location {}
+
+        .work-hours {}
+
+        .phone {}
+
+        .email {}
+
+        .office-location {}
+
+        .social-medias {}
+    }
 }

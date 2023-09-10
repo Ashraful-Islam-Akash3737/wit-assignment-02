@@ -427,8 +427,8 @@ main .banner .banner-container .banner-right .banner-right-4:hover .banner-right
   padding: 15px 20px;
 }
 main .hr {
-  margin-top: 10px;
-  margin-bottom: 50px;
+  margin-top: 70px;
+  margin-bottom: 100px;
 }
 main .hr hr {
   border: 1px dotted black;
@@ -512,8 +512,8 @@ main .hr hr {
 }
 
 .real {
-  margin-top: 10px;
-  margin-bottom: 50px;
+  margin-top: 70px;
+  margin-bottom: 100px;
 }
 .real hr {
   border: 1px dotted black;
@@ -597,8 +597,8 @@ main .hr hr {
 }
 
 .hr {
-  margin-top: 10px;
-  margin-bottom: 50px;
+  margin-top: 70px;
+  margin-bottom: 100px;
 }
 .hr hr {
   border: 7px dotted black;
@@ -812,4 +812,50 @@ main .hr hr {
   font-size: 40px;
   height: 200px;
   width: 200px;
+}
+
+.office-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.office-container .office-info h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.office-container .office-info p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.office-container .office-info .your-info label {
+  margin-right: 20px;
+}
+.office-container .office-info .your-info label input {
+  padding: 15px;
+  font-size: 20px;
+}
+.office-container .office-info .your-info .btn {
+  margin-left: 20px;
+  padding: 15px;
+  font-size: 25px;
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+}
+.office-container .office-info .your-info .btn:hover {
+  margin-left: 20px;
+  padding: 15px;
+  font-size: 25px;
+  border: 2px solid white;
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+}
+.office-container .office-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
 }/*# sourceMappingURL=style.css.map */
