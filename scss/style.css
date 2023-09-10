@@ -509,5 +509,22 @@ main .hr hr {
   margin-bottom: 50px;
 }
 .real hr {
-  border: 5px dotted black;
+  border: 1px dotted black;
+}
+
+.about-women {
+  margin-top: 150px;
+  margin-left: 100px;
+  margin-bottom: 80px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.about-women .title {
+  font-size: 50px;
+  font-weight: 900;
+  color: black;
+}
+.about-women .info {
+  font-size: 30px;
+  color: black;
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */
