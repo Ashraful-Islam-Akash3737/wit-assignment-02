@@ -1006,3 +1006,50 @@ main {
         width: 50%;
     }
 }
+.social-media-photo{
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .instagram{
+        
+        
+        img{
+            display: block;
+            
+        }
+        h1{
+            display: none;
+            
+            padding-top: 80px;
+            height: 200px;
+            width: 200px;
+        }
+    }
+    .instagram:hover{
+        
+        img{
+            display: none;
+            
+            
+           
+        }
+        h1{
+            
+            display: block;
+            background-color:black;
+            color:white;
+            text-align: center;
+            padding-top: 80px;
+            font-size: 40px;
+            height: 200px;
+            width: 200px;
+            
+        }
+    }
+    
+    
+    
+}

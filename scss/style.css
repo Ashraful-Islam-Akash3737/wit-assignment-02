@@ -773,4 +773,34 @@ main .hr hr {
   font-size: 30px;
   color: black;
   width: 50%;
+}
+
+.social-media-photo {
+  text-align: center;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-media-photo .instagram img {
+  display: block;
+}
+.social-media-photo .instagram h1 {
+  display: none;
+  padding-top: 80px;
+  height: 200px;
+  width: 200px;
+}
+.social-media-photo .instagram:hover img {
+  display: none;
+}
+.social-media-photo .instagram:hover h1 {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 40px;
+  height: 200px;
+  width: 200px;
 }/*# sourceMappingURL=style.css.map */
