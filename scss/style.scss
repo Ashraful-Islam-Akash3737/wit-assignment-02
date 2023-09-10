@@ -942,17 +942,40 @@ main {
 
 
         .box1 {
-            background-color: gray;
+            background-color:rgb(232, 228, 228);
             height: 350px;
             width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h1{
+                color: black;
+                font-size: 40px;
+            }
+            p{
+                color: black;
+
+            }
         }
 
         img {}
 
         .box2 {
-            background-color: gray;
+            background-color:rgb(232, 228, 228) ;
             height: 350px;
             width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h1{
+                color: black;
+                font-size: 40px;
+            }
+            p{
+                color: black;
+            }
         }
 
         img {}

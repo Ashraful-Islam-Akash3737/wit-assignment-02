@@ -720,12 +720,34 @@ main .hr hr {
   grid-gap: 50px;
 }
 .container .image-container .box1 {
-  background-color: gray;
+  background-color: rgb(232, 228, 228);
   height: 350px;
   width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .image-container .box1 h1 {
+  color: black;
+  font-size: 40px;
+}
+.container .image-container .box1 p {
+  color: black;
 }
 .container .image-container .box2 {
-  background-color: gray;
+  background-color: rgb(232, 228, 228);
   height: 350px;
   width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .image-container .box2 h1 {
+  color: black;
+  font-size: 40px;
+}
+.container .image-container .box2 p {
+  color: black;
 }/*# sourceMappingURL=style.css.map */
