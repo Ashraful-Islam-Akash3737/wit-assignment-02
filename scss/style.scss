@@ -797,3 +797,91 @@ main {
         width: 50%;
     }
 }
+.kids-photo {
+    display: grid;
+    grid-template-columns: .2fr 1fr 1fr 1fr .2fr;
+    margin-bottom: 70px;
+    margin-left: 30px;
+
+    .pre {
+        width: 100px;
+        padding-top: 180px;
+        margin-right: 80px;
+
+        float: left;
+    }
+
+    .kids-photo-1 {
+        .about-kids-photo-1 {
+            display: flex;
+            align-items: center;
+
+            .title {
+                font-size: 30px;
+
+            }
+
+            img {
+                width: 100px;
+                margin-left: 90px;
+            }
+
+        }
+
+        .price {
+            font-size: 20px;
+        }
+    }
+
+    .kids-photo-2 {
+        .about-kids-photo-1 {
+            display: flex;
+            align-items: center;
+
+            .title {
+                font-size: 30px;
+
+            }
+
+            img {
+                width: 100px;
+                margin-left: 90px;
+            }
+
+        }
+
+        .price {
+            font-size: 20px;
+        }
+    }
+
+    .kids-photo-3 {
+        .about-kids-photo-1 {
+            display: flex;
+            align-items: center;
+
+            .title {
+                font-size: 30px;
+
+            }
+
+            img {
+                width: 100px;
+                margin-left: 87px;
+            }
+
+        }
+
+        .price {
+            font-size: 20px;
+        }
+    }
+
+    .next {
+        width: 100px;
+        padding-top: 180px;
+        padding-left: 0px;
+    }
+
+
+}
